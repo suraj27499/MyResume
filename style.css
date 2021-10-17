@@ -228,6 +228,10 @@ body{
     padding:10px;
     font-size: 40px;
 }
+.contact .col-md-4 .fas{
+    padding:10px;
+    font-size: 40px;
+}
 .contact .btn{
     padding:10px 25px 10px 25px;
     margin: 5px;
@@ -248,6 +252,9 @@ body{
     margin-right: 10px;
 }
 .contact .btn .fab{
+    margin-right: 10px;
+}
+.contact .btn .fas{
     margin-right: 10px;
 }
 
