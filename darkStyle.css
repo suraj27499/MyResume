@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-/*--------------------header css----------------*/
+/*--------------------heade css----------------*/
 #header{
     height:100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/background1.jpg);
@@ -60,6 +60,11 @@ body{
     }
 }
 /*---------------ABOUT----------------*/
+#user-info {
+    
+    background-color: #506477;
+    color: white;
+}
 .about{
     padding-top: 100px;
     margin-bottom: -130px;
@@ -107,13 +112,14 @@ body{
 }
 .progress-bar{
     border-radius: 16px;
-    background-color: #FFFF00 !important;
+    background-color: #27eBa7 !important;
+    color:black !important;
 }
 /*----------RESUME--------------*/
 .resume{
     margin-top:-50px;
     padding-bottom: 30px;
-    background: #ebebeb;
+    background: #7390aa;
 }
 .resume h3{
     margin:50px;
@@ -136,10 +142,10 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    background:white;
+    background:black;
 }
 .timeline li h4{
-    background-color:#FFFF00 ;
+    background-color:#df4576 ;
     padding:5px 0 px 20px;
     color:rgb(68, 68, 68) ;
     font-size: 15px;
@@ -151,11 +157,11 @@ body{
 }
 .timeline li h4 ::before{
   content:' ';
-  background:#FFFF00 ;
+  background:#00FFFF ;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid  black ;
+  border: 3px solid  #df4576 ;
   left: 12px;
   width:20px;
   height:20px;
@@ -173,7 +179,7 @@ body{
 }
 
 .services-box{
-    background-color: #e6e6e6;
+    background-color: black;
     padding: 10px;
     margin-top: 20px;
     border-top-right-radius: 50px;
@@ -183,7 +189,7 @@ body{
 
 .services-box:hover{
     transform: scale(1.1);
-    background-color: #FFFF00;
+    background-color: #0033FF;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     transition: transform 0.7s;
@@ -202,7 +208,7 @@ body{
 .services-box p{
    font-size: 15px;
    margin-top: 20px;
-   color:#777 ; 
+   color:white ; 
 }
 /*--------------contact-----------*/
 .contact{
